@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/10a408c07d.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <h1>Image Slider</h1>
+    <div class="container">
+        <div class="wrapper">
+            <img src="https://i.pinimg.com/originals/08/62/e7/0862e7a3c52d2d7bda9010bf2117689f.jpg" alt="" onclick="fullView(this.src)" />
+            <img src="https://www.hdnicewallpapers.com/Walls/Big/Sunset/Beautiful_Sunset_Nature_HD_Pics.jpg" alt="" onclick="fullView(this.src)" />
+            <img src="https://th.bing.com/th/id/R.3a9f0210ff7d1e83039ff237c81bacae?rik=asArcL6qvWfZfA&riu=http%3a%2f%2fs1.picswalls.com%2fwallpapers%2f2016%2f03%2f29%2fbeautiful-nature-high-definition_042323787_304.jpg&ehk=8tO7UxFL%2bC03x6vfc2O9EhdUCe4fl6tC7UGUdlnpdX4%3d&risl=&pid=ImgRaw&r=0"
+                alt="" onclick="fullView(this.src)" />
+            <img src="https://free4kwallpapers.com/uploads/originals/2015/10/25/beautiful-nature-mountains-scene-hd-wallpaper.jpg" alt="" onclick="fullView(this.src)" />
+            <img src="https://images-na.ssl-images-amazon.com/images/I/71yfHYABtHL._AC_SX679_.jpg" alt="" onclick="fullView(this.src)" />
+            <img src="https://th.bing.com/th/id/R.237f27be8859bb70a13a5111d2e4f331?rik=b8%2f89pT56H4Jzw&riu=http%3a%2f%2fwww.wallpapers13.com%2fwp-content%2fuploads%2f2016%2f10%2fLake-Louise-Alberta-Canada-Fantastic-Desktop-Wallpaper-1920x1080-1024x768.jpg&ehk=ZMFlq7Oh0TuzrHKTCn%2fTkwrruQsOeXHGfyxAtsouXjw%3d&risl=&pid=ImgRaw&r=0"
+                alt="" onclick="fullView(this.src)" />
+            <img src="https://th.bing.com/th/id/OIP.fVT57bEaGCWA3V7a3DnnsQHaEo?pid=ImgDet&rs=1" alt="" onclick="fullView(this.src)" />
+        </div>
+    </div>
+    <div id="fullImageView">
+        <img id="fullImage" />
+        <span id="closeButton" onclick="closeFullView()">&times;</span>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
